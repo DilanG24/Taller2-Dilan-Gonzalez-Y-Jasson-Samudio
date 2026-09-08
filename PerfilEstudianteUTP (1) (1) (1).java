@@ -1,7 +1,6 @@
 /**
- * 
  * @author (jasson samudio,Dilan gonzales y 4-817-1542,8-1050-741 ) 
-* @version 1.0
+ * @version 1.0
  */
 public class PerfilEstudianteUTP {
 
