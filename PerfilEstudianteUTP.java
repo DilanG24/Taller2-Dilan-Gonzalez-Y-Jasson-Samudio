@@ -1,6 +1,6 @@
 /*
  * TODO 1 (NIVEL 2 - Javadoc): Convierte este comentario de bloque a un comentario Javadoc oficial (/** ... */)
- * Incluye las etiquetas @author (jasson samudio,Dilan gonzales y 4-817-1542, ) y @version 1.0
+ * Incluye las etiquetas @author (jasson samudio,Dilan gonzales y 4-817-1542,8-1050-741 ) y @version 1.0
  */
 public class PerfilEstudianteUTP {
 
