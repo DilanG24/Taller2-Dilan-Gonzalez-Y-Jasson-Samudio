@@ -24,7 +24,7 @@ public class PerfilEstudianteUTP {
 
         // TODO 2.5: Declara una variable de tipo char con la inicial del segundo nombre
         // Nombre de variable: inicialSegundoNombre | Valor de prueba: 'M'
-        char incialSegundoNombre = " M ";
+        char incialSegundoNombre[M] = " M ";
 
 
         // ==============================================================
@@ -32,9 +32,9 @@ public class PerfilEstudianteUTP {
         // ==============================================================
         
         // TODO 3.1: Declara la constante de la cuota con 'final' y convención UPPER_SNAKE_CASE (5.00)
-        double CARNET_ESTUDIANTIL = 5.00;
+        double CARNET_ESTUDIANTILFINAL = 5.00;
         // TODO 3.2: Elimina la siguiente línea que viola la inmutabilidad de la constante
-        CARNETESTUDIANTIL = 10.00;
+        CARNETESTUDIANTILFINAl = 10.00;
 
 
         // ==============================================================
