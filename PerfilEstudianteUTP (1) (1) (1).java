@@ -1,6 +1,7 @@
-/*
- * TODO 1 (NIVEL 2 - Javadoc): Convierte este comentario de bloque a un comentario Javadoc oficial (/** ... */)
- * Incluye las etiquetas @author (jasson samudio,Dilan gonzales y 4-817-1542,8-1050-741 ) y @version 1.0
+/**
+ * 
+ * @author (jasson samudio,Dilan gonzales y 4-817-1542,8-1050-741 ) 
+* @version 1.0
  */
 public class PerfilEstudianteUTP {
 
@@ -11,10 +12,9 @@ public class PerfilEstudianteUTP {
         // ==============================================================
         
         // TODO 2.1: Corrige este identificador ilegal (inicia con un número) a camelCase
-        String Nombreprim = "Dilan Gonzalez,Jasson Samudio";
-
+        String primerNombre = "Dilan Gonzalez,Jasson Samudio";
         // TODO 2.2: Corrige este identificador ilegal (usa un guion medio) a camelCase
-        int creditosmatriculados = 18;
+        int creditosMatriculados = 18;
 
         // TODO 2.3: Corrige el tipo de dato para almacenar el costo exacto con decimales (15.50)
         double costoCredito = 15.50;
@@ -31,23 +31,21 @@ public class PerfilEstudianteUTP {
         // ==============================================================
         
         // TODO 3.1: Declara la constante de la cuota con 'final' y convención UPPER_SNAKE_CASE (5.00)
-        double CARNET_ESTUDIANTILFINAL = 5.00;
+        final double CARNET_ESTUDIANTIL = 5.00;
         // TODO 3.2: Elimina la siguiente línea que viola la inmutabilidad de la constante
-        CARNETESTUDIANTIL = 10.00;
-
-
+        
         // ==============================================================
         // NIVEL 3: CÁLCULO ARITMÉTICO Y SALIDA FORMATO COMPROBANTE
         // ==============================================================
         
         // TODO 4: Utiliza tus variables y constantes corregidas para calcular subtotal y total
-        double subtotalMatricula = creditosmatriculados * costoCredito;
-        double totalPagar = subtotalMatricula + CARNET_ESTUDIANTILFINAL;
+        double subtotalMatricula = creditosMatriculados * costoCredito;
+        double totalPagar = subtotalMatricula + CARNET_ESTUDIANTIL;
 
         System.out.println("==========================================");
         System.out.println("    FICHA DE MATRÍCULA ESTUDIANTIL UTP");
         System.out.println("==========================================");
-        System.out.println("Estudiante : " + 1erNombre);
+        System.out.println("Estudiante : " + primerNombre);
         System.out.println("Paz y Salvo: " + estaPazYSalvo);
         System.out.println("Subtotal   : $" + subtotalMatricula);
         System.out.println("Total      : $" + totalPagar);
